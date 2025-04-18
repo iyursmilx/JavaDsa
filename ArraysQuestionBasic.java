@@ -1,4 +1,5 @@
 
+
 import java.util.Arrays;
 
 class ArraysQuestionBasic{
@@ -6,6 +7,7 @@ class ArraysQuestionBasic{
         int[] arr = {1,2,3,4,5,6,7};
         
         /// Swap the elements at the 2 indices
+        System.out.println("Old Array: " +Arrays.toString(arr));
         ElementIndexSwapper(arr, 1, 4);
         System.out.println("ElementIndexSwapper: " + Arrays.toString(arr));
         // ElementIndexSwapper: [1, 5, 3, 4, 2, 6, 7]
